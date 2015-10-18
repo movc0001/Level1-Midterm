@@ -1,0 +1,130 @@
+/* defaults*/
+
+@import url ('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css') * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	font-size: 10px;
+	line-height: 1.75;
+	font-family: 'Open sans', sans-serif;
+}
+
+.wrapper {
+	width: 97%;
+	margin: 0 auto;
+	background-color: #FFF5C9;
+	color: #52504A;
+}
+
+.masthead {
+	width: 100%;
+	background-image: url("http://lorempixel.com/800/200/cats/");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.masthead h1 {
+	font-size: 5rem;
+	color: #CC8D37;
+	text-align: center;
+	line-height: 4;
+}
+
+
+/*layouts*/
+
+.content {
+	font-size: 1.8em;
+	padding: 0 20px;
+}
+
+
+/*navigtion*/
+
+.mainnav {
+	font-size: 2em;
+}
+
+.mainnav ul {
+	list-style: none;
+	width: 95%%;
+	background: #F8CE72;
+	display: block;
+}
+
+.mainnav li {
+	padding: 4px;
+}
+
+.primary p {
+	text-align: justify;
+	padding: 0.5em 1em;
+}
+
+.primary h2{
+	line-height: 2;
+	color: #CC8D37;
+	padding-left: 0.5em;
+	font-size: 1.75em;
+}
+
+.primary p img {
+	max-width: 100%;
+}
+
+.side p{
+	text-align: justify;
+	padding: 0.5em 1em;
+	
+	
+}
+
+.side h3{
+	line-height: 2;
+	color: #CC8D37;
+	padding-left: 0.5em;
+	font-size: 1.5em;
+}
+	
+	
+.side img {
+	max-width: 100%;
+	
+}
+
+
+/*.mainnav li {
+    width: 24%;
+    position: relative;
+    display: inline-block;
+    
+}*/
+
+.mainnav a,
+.mainnav a:visited {
+	text-decoration: none;
+	color: #52504A;
+	font-weight: 600;
+	display: block;
+	text-align: center
+}
+
+.mainnav a:hover {
+	color: beige;
+}
+
+.side {
+	font-size: 1.8em;
+	font-weight:
+}
+
+
+}
+footer{
+	background-color: #F8CE72;
+	line-height: 5;	
+}
