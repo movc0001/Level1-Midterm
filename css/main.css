@@ -1,6 +1,7 @@
 	/* defaults*/
 	
-	@import url ('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css') * {
+	@import url ('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css');
+	* {
 		padding: 0;
 		margin: 0;
 		box-sizing: border-box;
@@ -8,7 +9,7 @@
 	
 	html {
 		width: 100%;
-		font-size: 10px;
+		font-size: 62.5%;
 		line-height: 1.75;
 		font-family: 'Open sans', sans-serif;
 	}
@@ -121,20 +122,26 @@
 			padding-top: 13px;
 		}
 		.primary {
-			width: 60%;
+			width: 63%;
 			padding-right: 1rem;
 			float: left;
 		}
 		.side {
-			width: 35%;
+			width: 37%;
 			float: left;
+		}
+		.footer:before {
+			content: '';
+			display: block;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+			clear: both;
 		}
 		.content h2,
 		h3 {
 			min-height: 4rem;
 		}
-		.primary,
-		.side {}
 	}
 	
 	@media all and (min-width:60em) {
@@ -158,7 +165,9 @@
 			display: block;
 			text-align: center;
 			font-size: 1.8rem;
-			background-color: antiquewhite;
+			background-image: url("http://lorempixel.com/100/50/cats/");
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 		.mainnav a:hover,
 		.mainnav a:active {
@@ -170,21 +179,27 @@
 			-moz-column-count: 2;
 			column-count: 2;
 		}
-		
-			.primary {
+		.primary {
 			-webkit-column-gap: 15px;
 			-moz-column-gap: 15px;
 			column-gap: 15px;
-			}
-		
+		}
 		.primary {
 			float: left;
-			width: 45%;
+			width: 50%;
 			padding: 5px;
 		}
 		.side {
 			float: left;
-			width: 23%;
+			width: 25%;
 			padding: 5px;
+		}
+		.footer:before {
+			content: '';
+			display: block;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+			clear: both;
 		}
 	}
